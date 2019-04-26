@@ -1,0 +1,73 @@
+/* 简写css */
+
+.cur {
+	cursor: pointer;
+}
+
+.flex {
+	display: flex;
+}
+
+.jc-center {
+	justify-content: center;
+}
+
+.al-center {
+	align-items: center;
+}
+
+.els {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* .ivu-table-body {
+	height: 550px;
+	overflow-y: auto;
+	overflow-x: hidden;
+} */
+
+.ivu-form-item {
+	margin-bottom: 20px;
+}
+
+.Button_base {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.ivu-modal-body .staging_tables {
+	max-height: 700px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+
+/* 滚动条样式 */
+.el-table__body-wrapper {
+	overflow-y: hidden !important;
+}
+
+.el-table__body-wrapper:hover {
+	overflow-y: auto !important;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	overflow: auto
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #e6e6e6;
+	min-height: 25px;
+	min-width: 25px;
+	border: 1px solid #e0e0e0
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f7f7f7;
+	border: 1px solid #efefef
+}
